@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4992968153905633680}
   - component: {fileID: 1124353999324434066}
   - component: {fileID: 1364534052375435917}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: ScanNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.9, y: 0.4, z: 0.9}
-  m_Center: {x: 0, y: 0.25, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1364534052375435917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 3344794757826969230}
   - component: {fileID: 2990663671765086396}
   - component: {fileID: 7307652833019644800}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: JatrovyKnedlicek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,8 +105,8 @@ Transform:
   m_GameObject: {fileID: 7133114708032461955}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1.5, y: 0.6, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4992968153905633680}
@@ -132,7 +132,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1a542fecd652335789a50a64b3f1f551, type: 2}
+  - {fileID: 2100000, guid: b1ce2a93cd16c4555b45d1cb2355c26f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -161,7 +161,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7133114708032461955}
-  m_Mesh: {fileID: 8180937364411917641, guid: c99f0d21b8f7b486987dd7a2e32890d7, type: 3}
+  m_Mesh: {fileID: 2220923670506632438, guid: 150c298546bd409bc9517dce4f03810c, type: 3}
 --- !u!65 &8632408448510878731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -182,7 +182,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 0.5, z: 1}
-  m_Center: {x: 0, y: 0.25, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3344794757826969230
 MonoBehaviour:
   m_ObjectHideFlags: 0

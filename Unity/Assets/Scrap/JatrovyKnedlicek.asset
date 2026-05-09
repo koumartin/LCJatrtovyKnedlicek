@@ -13,35 +13,36 @@ MonoBehaviour:
   m_Name: JatrovyKnedlicek
   m_EditorClassIdentifier: 
   itemId: 0
-  itemName: 
+  itemName: JatrovyKnedlicek
   spawnPositionTypes: []
   twoHanded: 0
   twoHandedAnimation: 0
-  canBeGrabbedBeforeGameStart: 0
-  weight: 0
+  canBeGrabbedBeforeGameStart: 1
+  weight: 1.1
   itemIsTrigger: 0
   holdButtonUse: 0
   itemSpawnsOnGround: 0
   isConductiveMetal: 0
-  isScrap: 0
+  isScrap: 1
   creditsWorth: 0
   lockedInDemo: 0
-  highestSalePercentage: 0
-  maxValue: 0
-  minValue: 0
-  spawnPrefab: {fileID: 0}
+  highestSalePercentage: 80
+  maxValue: 110
+  minValue: 90
+  spawnPrefab: {fileID: 7133114708032461955, guid: b5314f01fa18e076cbd8a43612793a42,
+    type: 3}
   requiresBattery: 0
   batteryUsage: 0
   automaticallySetUsingPower: 0
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: 32c2c895f8c2826ff80bb43b241f883b, type: 3}
   grabAnim: 
   useAnim: 
   pocketAnim: 
   throwAnim: 
   grabAnimationTime: 0
-  grabSFX: {fileID: 0}
+  grabSFX: {fileID: 8300000, guid: ed635f48df1ed4d81969a17850cdbd2d, type: 3}
   dropSFX: {fileID: 0}
-  pocketSFX: {fileID: 0}
+  pocketSFX: {fileID: 8300000, guid: 59e2fc09bce27c03ebbc40c297607ad6, type: 3}
   throwSFX: {fileID: 0}
   syncGrabFunction: 0
   syncUseFunction: 0

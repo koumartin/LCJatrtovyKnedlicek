@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b013bcb3-5cb4-438d-82ad-edfd027d3326" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LcJatrovyKnedlicek/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LcJatrovyKnedlicek/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/Atlas.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/Atlas.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicekModel.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicekModel.fbx.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +88,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Unity workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unity workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
