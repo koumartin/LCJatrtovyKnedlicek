@@ -9,13 +9,13 @@ using UnityEngine;
 namespace LCJatrovyKnedlicek;
 
 [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
-[BepInDependency(LethalLib.Plugin.ModGUID)]
+[BepInDependency(LethalLib.Plugin.ModGUID, BepInDependency.DependencyFlags.HardDependency)]
 public class LcJatrovyKnedlicek : BaseUnityPlugin
 {
     public static LcJatrovyKnedlicek Instance { get; private set; } = null!;
     internal new static ManualLogSource Logger { get; private set; } = null!;
 
-    private static AssetBundle AssetBundle;
+    private static AssetBundle? _assetBundle;
 
     private void Awake()
     {
@@ -23,13 +23,13 @@ public class LcJatrovyKnedlicek : BaseUnityPlugin
         Instance = this;
 
         var assemblyLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
-        AssetBundle = AssetBundle.LoadFromFile(Path.Combine(assemblyLocation, "jatrovyknedlicek"));
-        if (AssetBundle == null) {
+        _assetBundle = AssetBundle.LoadFromFile(Path.Combine(assemblyLocation, "jatrovyknedlicek"));
+        if (_assetBundle == null) {
             Logger.LogError("Failed to load custom assets."); // ManualLogSource for your plugin
             return;
         }
 
-        var item = AssetBundle.LoadAsset<Item>("Assets/Scrap/jatrovyknedlicek.asset");
+        var item = _assetBundle.LoadAsset<Item>("Assets/Scrap/");
         Utilities.FixMixerGroups(item.spawnPrefab);
         NetworkPrefabs.RegisterNetworkPrefab(item.spawnPrefab);
         Items.RegisterScrap(item, 100, Levels.LevelTypes.All);

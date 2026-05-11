@@ -24,6 +24,7 @@ fi
 DLL_PATH="$MOD_DIR/bin/$BUILD_CONFIGURATION/netstandard2.1/$MOD_NAME.dll"
 MANIFEST_PATH="$SCRIPT_DIR/manifest.json"
 ICON_PATH="$SCRIPT_DIR/icon.png"
+README_PATH="$SCRIPT_DIR/README.md"
 ZIP_PATH="$SCRIPT_DIR/$MOD_NAME.zip"
 
 TMP_DIR="$(mktemp -d)"
@@ -41,6 +42,7 @@ fi
 cp "$MANIFEST_PATH" "$TMP_DIR"
 cp "$DLL_PATH" "$TMP_DIR"
 cp "$ICON_PATH" "$TMP_DIR"
+cp "$README_PATH" "$TMP_DIR"
 
 rm -f "$ZIP_PATH"
 

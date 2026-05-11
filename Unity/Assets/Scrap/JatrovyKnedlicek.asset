@@ -21,7 +21,7 @@ MonoBehaviour:
   weight: 1.1
   itemIsTrigger: 0
   holdButtonUse: 0
-  itemSpawnsOnGround: 0
+  itemSpawnsOnGround: 1
   isConductiveMetal: 0
   isScrap: 1
   creditsWorth: 0
@@ -40,9 +40,9 @@ MonoBehaviour:
   pocketAnim: 
   throwAnim: 
   grabAnimationTime: 0
-  grabSFX: {fileID: 8300000, guid: ed635f48df1ed4d81969a17850cdbd2d, type: 3}
-  dropSFX: {fileID: 0}
-  pocketSFX: {fileID: 8300000, guid: 59e2fc09bce27c03ebbc40c297607ad6, type: 3}
+  grabSFX: {fileID: 8300000, guid: 59e2fc09bce27c03ebbc40c297607ad6, type: 3}
+  dropSFX: {fileID: 8300000, guid: ebd14fedbdda9595dbc8f6fb0e8b87cd, type: 3}
+  pocketSFX: {fileID: 8300000, guid: 40b9afbca682f8abda472a1255f61803, type: 3}
   throwSFX: {fileID: 0}
   syncGrabFunction: 0
   syncUseFunction: 0
