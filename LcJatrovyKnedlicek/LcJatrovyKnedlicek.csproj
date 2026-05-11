@@ -2,8 +2,8 @@
 
     <!-- BepInEx Properties -->
     <PropertyGroup>
-        <AssemblyName>koumartin.LCJatrovyKnedlicek</AssemblyName>
-        <Product>LCJatrovyKnedlicek</Product>
+        <AssemblyName>koumartin.LcJatrovyKnedlicek</AssemblyName>
+        <Product>LcJatrovyKnedlicek</Product>
         <!-- Change to whatever version you're currently on. -->
         <Version>0.0.1</Version>
     </PropertyGroup>
@@ -11,7 +11,7 @@
     <!-- Project Properties -->
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <RootNamespace>LCJatrovyKnedlicek</RootNamespace>
+        <RootNamespace>LcJatrovyKnedlicek</RootNamespace>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
@@ -47,8 +47,7 @@
         <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" PrivateAssets="all"/>
         <PackageReference Include="LethalCompany.GameLibs.Steam" Version="*-*" PrivateAssets="all"/>
         <PackageReference Include="UnityEngine.Modules" Version="2022.3.62" IncludeAssets="compile" PrivateAssets="all"/>
-        <PackageReference Include="TeamBMX.LobbyCompatibility" Version="1.*" PrivateAssets="all"/>
-        <PackageReference Include="Evaisa.LethalLib" Version="0.*" /> 
+        <PackageReference Include="Evaisa.LethalLib" Version="1.2.0" /> 
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">

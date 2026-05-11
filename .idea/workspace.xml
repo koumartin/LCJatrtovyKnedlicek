@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b013bcb3-5cb4-438d-82ad-edfd027d3326" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/Atlas.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/Atlas.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicek.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicekModel.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity/Assets/Scrap/JatrovyKnedlicekModel.fbx.meta" beforeDir="false" />
+    <list default="true" id="b013bcb3-5cb4-438d-82ad-edfd027d3326" name="Changes" comment="Working">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install_mod.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LcJatrovyKnedlicek/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LcJatrovyKnedlicek.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LcJatrovyKnedlicek.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LcJatrovyKnedlicek/LCJatrovyKnedlicek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LcJatrovyKnedlicek/LcJatrovyKnedlicek.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LcJatrovyKnedlicek/LCJatrovyKnedlicek.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LcJatrovyKnedlicek/Patches/ExampleTVPatch.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +19,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1" />
+    <option name="cachedIndexableFilesCount" value="8" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/173c0717f218492b8926d9e118377c0c6e000/af/f04911d5/LobbyCompatibilityAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20d92916a5b14e15b17795b1cd9a6ee613a00/37/bf6f2445/Items.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20d92916a5b14e15b17795b1cd9a6ee613a00/5e/c5b4b693/MyPluginInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20d92916a5b14e15b17795b1cd9a6ee613a00/a4/b76d8a22/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6a18188ce6264976a9218286caeb57f41ea00/7c/2aacc9a9/BepInDependency.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LcJatrovyKnedlicek/LcJatrovyKnedlicek.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -44,6 +52,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
@@ -89,7 +98,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Unity workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unity workspace" />
+    <MESSAGE value="Assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

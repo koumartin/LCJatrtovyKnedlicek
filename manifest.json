@@ -1,0 +1,10 @@
+{
+  "name": "LcJatrovyKnedlicek",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/com/koumartin/LcJatrovyKnedlicek",
+  "description": "Mod containing legendary jatrovy knedlicek (Czech legendary scrap).",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "LethalAPI-1.2.0"
+  ]
+}
