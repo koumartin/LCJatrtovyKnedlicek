@@ -29,7 +29,7 @@ public class LcJatrovyKnedlicek : BaseUnityPlugin
             return;
         }
 
-        var item = _assetBundle.LoadAsset<Item>("Assets/Scrap/");
+        var item = _assetBundle.LoadAsset<Item>("Assets/Scrap/jatrovyknedlicek.asset");
         Utilities.FixMixerGroups(item.spawnPrefab);
         NetworkPrefabs.RegisterNetworkPrefab(item.spawnPrefab);
         Items.RegisterScrap(item, 100, Levels.LevelTypes.All);
