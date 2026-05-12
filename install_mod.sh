@@ -44,6 +44,6 @@ if [ -n "${ASSETBUNDLES_DIR:-}" ]; then
     exit 1
   fi
 
-  cp -r "$ASSETBUNDLES_DIR"/. "$DEST_DIR/"
+  cp -r "$ASSETBUNDLES_DIR"/jatrovyknedlicek.* "$DEST_DIR/"
   echo "Copied asset bundles from $ASSETBUNDLES_DIR to $DEST_DIR/"
 fi

@@ -36,7 +36,7 @@ if [ -n "${ASSETBUNDLES_DIR:-}" ]; then
     exit 1
   fi
 
-  cp -r "$ASSETBUNDLES_DIR"/. "$TMP_DIR"
+  cp -r "$ASSETBUNDLES_DIR"/jatrovyknedlicek* "$TMP_DIR"
 fi
 
 cp "$MANIFEST_PATH" "$TMP_DIR"
