@@ -32,7 +32,10 @@ public class LcJatrovyKnedlicek : BaseUnityPlugin
         var item = _assetBundle.LoadAsset<Item>("Assets/Scrap/jatrovyknedlicek.asset");
         Utilities.FixMixerGroups(item.spawnPrefab);
         NetworkPrefabs.RegisterNetworkPrefab(item.spawnPrefab);
-        Items.RegisterScrap(item, 100, Levels.LevelTypes.All);
+
+        var allPossibleLevels= Levels.LevelTypes.Vanilla & Levels.LevelTypes.Modded;
+        Items.RegisterScrap(item, 70, allPossibleLevels & ~Levels.LevelTypes.DineLevel);
+        Items.RegisterScrap(item, 5, Levels.LevelTypes.DineLevel);
 
         Logger.LogInfo($"{MyPluginInfo.PLUGIN_GUID} v{MyPluginInfo.PLUGIN_VERSION} has loaded!");
     }
